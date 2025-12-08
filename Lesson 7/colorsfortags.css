@@ -1,0 +1,30 @@
+/*For paragraph*/
+p{
+    color: rgb(0, 42, 255);font-style: italic;font-size: large;
+}
+
+h6{
+    color: blueviolet;
+    font-size: medium;
+    font-family: Georgia, 'Times New Roman', Times, serif;font: message-box;
+}
+
+.Sarcasm{
+    color:orangered;
+    font-size:354px;
+    font-style: unset;
+}
+
+#Honest{
+    color: darkgreen;
+    font-size:100px;
+    font-style: italic;
+}
+
+*{
+    color:rgb(209, 158, 28);
+}
+
+aside,h2,form{
+    color: grey;
+}
