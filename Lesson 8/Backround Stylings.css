@@ -1,0 +1,33 @@
+body{
+    background-image: url("https://i2.wp.com/files.all-free-download.com/downloadfiles/wallpapers/1920_1080/peaceful_lake_wallpaper_landscape_nature_1208.jpg");
+    background-color: bisque;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+}
+
+
+#Poem{
+    color: blueviolet;
+    font-size: 20px;
+}
+
+.Gradient_1{
+    background-image:linear-gradient(red,rgb(163, 56, 163));
+    font-size: 15px;;
+}
+
+@keyframes Transition_Of_Colors{
+    0% {background-color:red;}
+    25%{background-color: yellow;}
+    50%{background-color: blue;}
+    75%{background-color: red;}
+    100%{background-color: purple;}
+}
+
+div{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: Transition_Of_Colors;
+    animation-duration: 10s;
+}
