@@ -1,0 +1,37 @@
+body::first-line{
+    font-size: 70px;
+    font-family: Impact;
+}
+
+/* When hovering over link */
+a:hover{
+    font-family: Impact;
+    color: rgb(255, 0, 0);
+}
+
+
+/* 4th item of unordered list */
+ul li:nth-child(4){
+    /* content: '😢'; */
+    background-color: rgba(225, 19, 187, 0.288);
+}
+
+ul li:nth-child(4)::after{
+    content: '😢';
+}
+
+ul li:nth-child(4)::before{
+    content: '😢';
+}
+/* body::first-line:hover{
+    color: blue;
+} */
+
+p::first-letter{
+    font-family: Impact;
+
+}
+
+body{
+    background-image: url('https://static.vecteezy.com/system/resources/thumbnails/044/151/890/small_2x/abstract-textured-backgound-free-photo.jpg');
+}
