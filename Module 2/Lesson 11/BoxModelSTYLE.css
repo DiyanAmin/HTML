@@ -1,0 +1,23 @@
+#TopLeft{
+    padding-left: 700px;
+    border-top: 20000px;
+}
+
+#Random{
+    padding: 200px;
+    border: 20000px;
+}
+
+#Red{
+    color: red;
+}
+
+.ClassForImage{
+    float: right;
+}
+
+.Float{
+    color: rgb(208, 107, 208);
+    font-family:Impact;
+    float: right;
+}
